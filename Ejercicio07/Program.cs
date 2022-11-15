@@ -1,4 +1,6 @@
-﻿namespace Ejercicio07
+﻿using System.Globalization;
+
+namespace Ejercicio07
 {
     class Program
     {
@@ -9,7 +11,27 @@
             */
         static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
+
+            Console.WriteLine("Introduzca 1º número entero");
+            double num1 = double.Parse(Console.ReadLine()); 
+            Console.WriteLine("Introduzca 2º número entero");
+            double num2 = double.Parse(Console.ReadLine()); 
+            Console.WriteLine("Introduzca 3º número entero");
+            double num3 = double.Parse(Console.ReadLine());
+
+            if (num1 != num2 && num2 != num3 && num1 != num3)
+            {
+                Console.WriteLine("Escaleno");
+            }
+            else if (num1 == num2 && num2 == num3)
+            {
+                Console.WriteLine("Equilátero");
+            }
+            else
+            {
+                Console.WriteLine("Isósceles");
+            }
         }
     }
 }
