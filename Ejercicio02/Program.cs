@@ -19,9 +19,9 @@ namespace Ejercicio02
             Console.WriteLine("2º número real");
             double num2 = double.Parse(Console.ReadLine());
 
-            double suma = num1 + num2;
+            double addition = num1 + num2;
 
-            Console.WriteLine($"La suma es {suma}");
+            Console.WriteLine($"La suma es {addition}");
         }
     }
 }
