@@ -11,7 +11,8 @@
             Console.WriteLine("Introduzca un número entero de mínimo 2 cifras");
             int num = int.Parse(Console.ReadLine());   //Convertimos en entero el string
 
-            int unit = num % 10; 
+            int unit = num % 10;  //Da el resto, ya que el resto de 10 quita el número de delante,
+                                  //por eso el último es la unidad
 
             Console.WriteLine($"La unidad es: {unit}");
         }
