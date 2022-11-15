@@ -15,19 +15,20 @@
         {
             Console.WriteLine("Introduzca un carácter");
             Console.WriteLine("C => Casado\nS => Soltero\nV => Viudo\nD => Divorciado");
-            char letter = Convert.ToChar(Console.ReadLine().ToLower());
+            string letter = Console.ReadLine().ToLower(); //Lo ponemos en minúscula para evitar problema al introducir
+                                                          //por teclado si es mayúscula/minúscula
 
             switch(letter) { 
-                case 'c':
+                case "c":
                     Console.WriteLine("Usted está casado");
                     break;
-                case 's':
+                case "s":
                     Console.WriteLine("Usted está soltero");
                     break;
-                case 'v':
+                case "v":
                     Console.WriteLine("Usted está viudo");
                     break;
-                case 'd':
+                case "d":
                     Console.WriteLine("Usted está divorciado");
                     break;
                 default:
