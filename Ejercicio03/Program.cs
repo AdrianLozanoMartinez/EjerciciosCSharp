@@ -1,4 +1,6 @@
-﻿namespace Ejercicio03
+﻿using System.Globalization; //Para que coja . en lugar de , en decimales
+
+namespace Ejercicio03
 {
     class Program
     {
@@ -9,7 +11,14 @@
           NOTA: Para pasar de ºF a ºC primero hemos de restar 32 y, a continuación, dividir entre 9 y multiplicar por 5.*/
         static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            CultureInfo.CurrentCulture = CultureInfo.InvariantCulture; //Para que coja . en lugar de , en decimales
+
+            Console.WriteLine("Introduzca una temperatura en grados Fahrenheit");
+            double num = double.Parse(Console.ReadLine());
+
+            double celsius = (num-32)/9*5;
+
+            Console.WriteLine($"{celsius}ºC");
         }
     }
 }
