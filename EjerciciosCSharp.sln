@@ -9,19 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio02", "Ejercicio02\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio03", "Ejercicio03\Ejercicio03.csproj", "{B3E9D216-9524-4642-9303-AE6B032EEB6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio04", "Ejercicio04\Ejercicio04.csproj", "{9DE23CD6-C9A7-4872-A8CF-A87EEECD98A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio04", "Ejercicio04\Ejercicio04.csproj", "{9DE23CD6-C9A7-4872-A8CF-A87EEECD98A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio05", "Ejercicio05\Ejercicio05.csproj", "{D936D916-2054-4F3C-B862-E307EAD672D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio05", "Ejercicio05\Ejercicio05.csproj", "{D936D916-2054-4F3C-B862-E307EAD672D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio06", "Ejercicio06\Ejercicio06.csproj", "{CB26C6CD-C26F-45EA-B374-EAA894AB927D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio06", "Ejercicio06\Ejercicio06.csproj", "{CB26C6CD-C26F-45EA-B374-EAA894AB927D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio07", "Ejercicio07\Ejercicio07.csproj", "{18F85233-63A2-43C9-A4D8-01F366465FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio07", "Ejercicio07\Ejercicio07.csproj", "{18F85233-63A2-43C9-A4D8-01F366465FE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio08", "Ejercicio08\Ejercicio08.csproj", "{4AA7C776-7359-4266-A89E-0579457846F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio08", "Ejercicio08\Ejercicio08.csproj", "{4AA7C776-7359-4266-A89E-0579457846F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio09", "Ejercicio09\Ejercicio09.csproj", "{9F5C2FB2-B9D8-458E-B235-22034787AFA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio09", "Ejercicio09\Ejercicio09.csproj", "{9F5C2FB2-B9D8-458E-B235-22034787AFA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio10", "Ejercicio10\Ejercicio10.csproj", "{9CA36B05-CF04-462C-BDCC-9B9FF2AE97FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio10", "Ejercicio10\Ejercicio10.csproj", "{9CA36B05-CF04-462C-BDCC-9B9FF2AE97FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio11", "Ejercicio11\Ejercicio11.csproj", "{775D1433-E7D3-4D7D-9AA2-1C4CCD70D7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio12", "Ejercicio12\Ejercicio12.csproj", "{41C1CCB5-1323-4162-A06C-A795BECE8128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio13", "Ejercicio13\Ejercicio13.csproj", "{3D8006A8-9D2E-464A-A32D-057CF0F039BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{9CA36B05-CF04-462C-BDCC-9B9FF2AE97FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CA36B05-CF04-462C-BDCC-9B9FF2AE97FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CA36B05-CF04-462C-BDCC-9B9FF2AE97FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775D1433-E7D3-4D7D-9AA2-1C4CCD70D7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775D1433-E7D3-4D7D-9AA2-1C4CCD70D7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775D1433-E7D3-4D7D-9AA2-1C4CCD70D7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775D1433-E7D3-4D7D-9AA2-1C4CCD70D7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C1CCB5-1323-4162-A06C-A795BECE8128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C1CCB5-1323-4162-A06C-A795BECE8128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C1CCB5-1323-4162-A06C-A795BECE8128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C1CCB5-1323-4162-A06C-A795BECE8128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8006A8-9D2E-464A-A32D-057CF0F039BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8006A8-9D2E-464A-A32D-057CF0F039BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8006A8-9D2E-464A-A32D-057CF0F039BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8006A8-9D2E-464A-A32D-057CF0F039BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
