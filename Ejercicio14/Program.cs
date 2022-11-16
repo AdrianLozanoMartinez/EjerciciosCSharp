@@ -14,13 +14,14 @@
             Console.WriteLine("Introduzca un número entero para la cantidad de caracteres");
             int amount = int.Parse(Console.ReadLine());
 
-            Random random= new Random(seed);
+            Random random= new Random(seed);     //Metemos la semilla por teclado
             int randomNumber = 0;
             char ascii = ' ';
 
-            for (int i = 0; i < amount; i++)
+            for (int i = 0; i < amount; i++)     //Hasta el número de caracteres que queremos mostrar dado por usuario
             {
-                randomNumber = random.Next(256);
+                randomNumber = random.Next(256); //Añadimos 256 en lugar de 255 porque nunca coge el último número
+
                 ascii = (char)randomNumber;
 
                 Console.WriteLine($"Número aleatorio: {randomNumber} - Número ASCII: {ascii}");
