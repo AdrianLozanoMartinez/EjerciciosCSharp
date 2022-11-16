@@ -17,10 +17,11 @@
             Random random= new Random(seed);     //Metemos la semilla por teclado
             int randomNumber = 0;
             char ascii = ' ';
+            const int ASCII = 256; 
 
             for (int i = 0; i < amount; i++)     //Hasta el número de caracteres que queremos mostrar dado por usuario
             {
-                randomNumber = random.Next(256); //Añadimos 256 en lugar de 255 porque nunca coge el último número
+                randomNumber = random.Next(ASCII); //Añadimos 256 en lugar de 255 porque nunca coge el último número
 
                 ascii = (char)randomNumber;
 

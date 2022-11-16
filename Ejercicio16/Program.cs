@@ -45,9 +45,10 @@
                     //Console.Write($"{result}"); //26/2 -> 01011
                 }
 
-                for (int j = result.Length - 1; j >= 0; j--)
+                for (int j = result.Length - 1; j >= 0; j--)  //Cogemos el string result desde atrás 
                 {
-                    result2 += result[j];
+                    result2 += result[j];                     //Pasamos el string result carácter por carácter desde 
+                                                              //atrás
                 }
                 Console.Write($"{result2}"); //26/2 -> 11010
             }
