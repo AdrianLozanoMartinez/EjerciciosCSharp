@@ -2,16 +2,17 @@
 {
     class Program
     {
+     /*
+     Ejercicio 20.
+     Crea un enumerado con los meses del año. El programa pedirá al usuario un número entero
+     que indicará el mes escogido (1 - 12). Luego, mostrará el nombre del mes escogido por
+     pantalla.
+     */
+
         enum Month { January = 1, February, March, April, May, June, July, August, September, October, Nobember, December };
 
         static void Main()
         {
-            /*
-             Ejercicio 20.
-             Crea un enumerado con los meses del año. El programa pedirá al usuario un número entero
-             que indicará el mes escogido (1 - 12). Luego, mostrará el nombre del mes escogido por
-             pantalla.
-             */
             Console.WriteLine("Elija el número del mes que quieras ver");
             int num = int.Parse(Console.ReadLine());
 

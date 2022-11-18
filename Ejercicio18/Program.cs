@@ -2,17 +2,14 @@
 {
     class Program
     {
+    /*Ejercicio 18.
+    El programa pedirá al usuario un número entero que indicará la cantidad de números que
+    tendrá que introducir posteriormente. Luego, mostrará la media cuadrática de dichos
+    números.
+    Fórmula media cuadrática:*/
+
         static void Main()
         {
-            /*Ejercicio 18.
-            El programa pedirá al usuario un número entero que indicará la cantidad de números que
-            tendrá que introducir posteriormente. Luego, mostrará la media cuadrática de dichos
-            números.
-            Fórmula media cuadrática:
-            
-            */
-
-
             Console.WriteLine("Introduzca un número entero");
             int num = int.Parse(Console.ReadLine());
 

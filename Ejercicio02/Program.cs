@@ -14,7 +14,7 @@ namespace Ejercicio02
             Console.WriteLine("Introduzca dos números reales");
 
             Console.WriteLine("1º número real");
-            double num1 = double.Parse(Console.ReadLine());             //Transformamos en double para usar decimales/reales
+            double num1 = double.Parse(Console.ReadLine());             
 
             Console.WriteLine("2º número real");
             double num2 = double.Parse(Console.ReadLine());

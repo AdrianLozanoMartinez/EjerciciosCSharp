@@ -1,15 +1,15 @@
 ﻿namespace Ejercicio23
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
-        {
-            /*
-             Ejercicio 23.
-             El programa pedirá al usuario 2 números enteros y mostrará el resultado de dividir el
-             primero por el segundo. Si se genera una excepción hay que controlarla y notificar al usuario.
-             */
+    /*
+    Ejercicio 23.
+    El programa pedirá al usuario 2 números enteros y mostrará el resultado de dividir el
+    primero por el segundo. Si se genera una excepción hay que controlarla y notificar al usuario.
+    */
 
+        static void Main()
+        {
             try 
             { 
                 Console.WriteLine("Introduzca el 1º número");

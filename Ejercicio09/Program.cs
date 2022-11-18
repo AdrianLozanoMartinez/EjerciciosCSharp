@@ -15,8 +15,7 @@
         {
             Console.WriteLine("Introduzca un carácter");
             Console.WriteLine("C => Casado\nS => Soltero\nV => Viudo\nD => Divorciado");
-            string letter = Console.ReadLine().ToLower(); //Lo ponemos en minúscula para evitar problema al introducir
-                                                          //por teclado si es mayúscula/minúscula
+            string letter = Console.ReadLine().ToLower(); 
 
             switch(letter) { 
                 case "c":

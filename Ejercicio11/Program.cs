@@ -2,12 +2,11 @@
 {
     class Program
     {
-        static void Main()
-        {
-            /*Ejercicio 11.
+        /*Ejercicio 11.
             El programa pedirá al usuario un número entero y mostrará todos los números primos
             dentro del rango 1 y el número dado*/
-
+        static void Main()
+        {
             Console.WriteLine("Introduzca un número entero");
             int num = int.Parse(Console.ReadLine());
 

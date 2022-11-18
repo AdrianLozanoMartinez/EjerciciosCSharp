@@ -2,15 +2,15 @@
 {
     class Program
     {
+        /*Ejercicio 13.
+        El programa pedirá al usuario un número entero, posteriormente sacará 5 números
+        aleatorios dentro del rango de 1 y el número dado, cada número aleatorio se mostrará por
+        pantalla y se indicará al usuario si el número que ha dado coincide con alguno de los
+        generados (sólo se notificará al usuario de la coincidencia la primera vez, si coincide más
+        veces no se notificará)*/
+
         static void Main()
         {
-            /*Ejercicio 13.
-            El programa pedirá al usuario un número entero, posteriormente sacará 5 números
-            aleatorios dentro del rango de 1 y el número dado, cada número aleatorio se mostrará por
-            pantalla y se indicará al usuario si el número que ha dado coincide con alguno de los
-            generados (sólo se notificará al usuario de la coincidencia la primera vez, si coincide más
-            veces no se notificará)*/
-
             Console.WriteLine("Introduzca un número entero");
             int num = int.Parse(Console.ReadLine());
 

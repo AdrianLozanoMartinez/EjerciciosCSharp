@@ -2,20 +2,20 @@
 {
     class Program
     {
+    /*Ejercicio 16.
+    Escriba un programa que efectúe la conversión de un número natural en base 10 a otra
+    determinada base. El usuario introducirá primero el número en base 10 y después la base a
+    la que convertirlo (el programa debe asegurarse de que la base no sea ni menor de 2 ni
+    mayor de 9).
+    Nota: Recordemos que para obtener la representación en una base b de un número en
+    decimal, dividimos entre b primero el número y después sucesivamente los diferentes
+    cocientes que se vayan obteniendo hasta que el cociente sea cero. Los diferentes restos
+    obtenidos en esas sucesivas divisiones constituyen la representación en dicha base b (pero
+    en orden inverso a como se han ido calculando). Por ejemplo, para el número decimal 26 en
+    base 2 es 11010.*/
+
         static void Main()
         {
-            /*Ejercicio 16.
-            Escriba un programa que efectúe la conversión de un número natural en base 10 a otra
-            determinada base. El usuario introducirá primero el número en base 10 y después la base a
-            la que convertirlo (el programa debe asegurarse de que la base no sea ni menor de 2 ni
-            mayor de 9).
-            Nota: Recordemos que para obtener la representación en una base b de un número en
-            decimal, dividimos entre b primero el número y después sucesivamente los diferentes
-            cocientes que se vayan obteniendo hasta que el cociente sea cero. Los diferentes restos
-            obtenidos en esas sucesivas divisiones constituyen la representación en dicha base b (pero
-            en orden inverso a como se han ido calculando). Por ejemplo, para el número decimal 26 en
-            base 2 es 11010.*/
-
             Console.WriteLine("Introduzca el número en base 10");
             int base10 = int.Parse(Console.ReadLine());
             Console.WriteLine("Introduzca una base del 2 al 9 en la que se va a convertir");
@@ -25,7 +25,7 @@
             string result = "";
             string result2 = "";
 
-            if (otherBase >= 2 && otherBase <= 9) //Debe ser de 2 a 9
+            if (otherBase >= 2 && otherBase <= 9) 
             {
                 for (int i = base10; base10 > 0; i--) //Ponemos que empiece por el número introducido para ir
                                                       //restando -1 en cada vuelta y poder dividir sobre la base elegida

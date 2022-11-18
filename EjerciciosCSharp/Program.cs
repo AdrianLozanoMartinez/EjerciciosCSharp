@@ -8,10 +8,10 @@
 
         static void Main()
         {
-            Console.WriteLine("¿Cuál es su nombre?"); //Muestra: ¿Cuál es su nombre?
-            string name = Console.ReadLine();         //Coge lo introducido por teclado en formato string.
+            Console.WriteLine("¿Cuál es su nombre?"); 
+            string name = Console.ReadLine();         
 
-            Console.WriteLine($"\"Hola, {name}\"");   //Muestra: "Hola, nombre_de_la_persona"
+            Console.WriteLine($"\"Hola, {name}\"");   
         }
     }
 }

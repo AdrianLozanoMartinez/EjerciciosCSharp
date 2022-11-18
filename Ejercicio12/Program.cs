@@ -2,13 +2,11 @@
 {
     class Program
     {
+    /*Ejercicio 12.
+    El programa pedirá al usuario una palabra y mostrará si es un palíndromo o no*/
+
         static void Main()
         {
-            /*Ejercicio 12.
-            El programa pedirá al usuario una palabra y mostrará si es un palíndromo o no*/
-
-
-            //Profe
             Console.Write("Escriba una palabra: ");
             string word = Console.ReadLine();
 
@@ -31,34 +29,6 @@
             {
                 Console.WriteLine($"La palabra {word} no es un palíncromo");
             }
-
-            Console.WriteLine("\nPulsa enter para cerrar");
-            Console.ReadLine();
-
-
-            //Mío
-            /*Console.Write("Escriba una palabra: ");
-            string word = Console.ReadLine();
-            string inverted = "";
-
-            for (int i = word.Length - 1; i >= 0; i--)
-            {
-                char letter = word[i];
-                inverted += Convert.ToString(letter);
-            }
-
-            if (inverted == word)
-            {
-                Console.WriteLine("La palabra es un palíndromo");
-            }
-            else
-            {
-                Console.WriteLine("La palabra no es un palíndromo");
-            }*/
-
-
-
-
         }
     }
 }

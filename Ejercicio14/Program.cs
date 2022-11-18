@@ -2,13 +2,13 @@
 {
     class Program
     {
+        /*Ejercicio 14.
+        El programa pedirá al usuario dos números enteros. El primer número será la semilla para el
+        generador aleatorio y el segundo será la cantidad de caracteres que se van a generar. Se
+        tendrá que pasar cada número generado a carácter ASCII y mostrarlo por pantalla.*/
+
         static void Main()
         {
-            /*Ejercicio 14.
-            El programa pedirá al usuario dos números enteros. El primer número será la semilla para el
-            generador aleatorio y el segundo será la cantidad de caracteres que se van a generar. Se
-            tendrá que pasar cada número generado a carácter ASCII y mostrarlo por pantalla.*/
-
             Console.WriteLine("Introduzca un número entero para la semilla");
             int seed = int.Parse(Console.ReadLine());
             Console.WriteLine("Introduzca un número entero para la cantidad de caracteres");
