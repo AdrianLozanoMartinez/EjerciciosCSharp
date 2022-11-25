@@ -23,22 +23,22 @@
         static void Main()
         {
             Console.WriteLine("Elige opción (libra, dolar, yen:");
-            string Money = Console.ReadLine();
+            string money = Console.ReadLine();
 
             Console.WriteLine("Introduce la cantidad de euros");
             double euros = double.Parse(Console.ReadLine());
 
-            Convertir(euros, Money);
+            Convertir(euros, money);
         }
 
-        static void Convertir(double euros, string moneda)
+        static void Convertir(double euros, string money)
         {
             object currency;
 
-            if (Enum.TryParse(typeof(Money), moneda, true, out currency))
+            if (Enum.TryParse(typeof(Money), money, true, out currency))
             {
                 double result = 0;
-                switch ((Money)currency)
+                switch (currency)
                 {
                     case Money.Libra:
                         result = euros * EURO_A_LIBRA;

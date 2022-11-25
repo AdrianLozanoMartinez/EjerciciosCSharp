@@ -18,6 +18,8 @@
             {
                 if(char.IsLetter(text[i]) && !consulted.Contains(text[i]))
                 {
+                    consulted += text[i];
+
                     int count = 0;
 
                     for(int j = 0; j < text.Length; j++)
@@ -27,7 +29,6 @@
                             count++;
                         }
                     }
-                    consulted += text[i];
                     Console.WriteLine($"{text[i]}: {count}");
                 }
             }

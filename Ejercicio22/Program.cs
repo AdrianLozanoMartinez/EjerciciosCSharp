@@ -18,9 +18,10 @@
         {
             Lamp state = Lamp.OFF;
 
+            Console.WriteLine("Elija encender \"ON\" o apagar \"OFF\" la lámpara");
+
             do
             {
-                Console.WriteLine("Elija encender \"ON\" o apagar \"OFF\" la lámpara");
                 string selection = Console.ReadLine();  
 
                 Lamp selectionLamp = (Lamp)Enum.Parse(typeof(Lamp), selection,true);

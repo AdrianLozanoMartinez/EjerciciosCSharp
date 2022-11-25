@@ -7,6 +7,7 @@
         generador aleatorio y el segundo será la cantidad de caracteres que se van a generar. Se
         tendrá que pasar cada número generado a carácter ASCII y mostrarlo por pantalla.*/
 
+        const int ASCII = 256;                 //Valor que se usa abajo y no varía, por eso se pone constante
         static void Main()
         {
             Console.WriteLine("Introduzca un número entero para la semilla");
@@ -17,7 +18,6 @@
             Random random= new Random(seed);       //Metemos la semilla por teclado
             int randomNumber = 0;
             char ascii = ' ';
-            const int ASCII = 256;                 //Valor que se usa abajo y no varía, por eso se pone constante
 
             for (int i = 0; i < amount; i++)       //Hasta el número de caracteres que queremos mostrar dado por usuario
             {

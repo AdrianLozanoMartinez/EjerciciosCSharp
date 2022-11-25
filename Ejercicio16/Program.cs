@@ -1,4 +1,5 @@
-﻿namespace Ejercicio16
+﻿
+namespace Ejercicio16
 {
     class Program
     {
