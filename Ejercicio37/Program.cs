@@ -36,7 +36,6 @@
 
                 if (num == item) found = true;
             }
-
             return found;
         }
     }

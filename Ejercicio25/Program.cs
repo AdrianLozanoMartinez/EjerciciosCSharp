@@ -32,7 +32,6 @@
             {
                 fact = x * Factorial(x - 1);
             }
-            
             return fact;
         }
 

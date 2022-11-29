@@ -9,17 +9,35 @@
 
         static void Main()
         {
-            Console.WriteLine("Introduzca el número del tamaño que tendrá el diamante");
-            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduzca el número de fila del diamante");
+            int diamond = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < num; i++) //Salto de línea, multiplicar filas de *
+            for (int i = 0; i < diamond; i++) //Filas
             {
-                Console.WriteLine(new string(' ', num - i) + new string('*',2 * i + 1));  //2*i+1 porque si es 0, sería: 2*0+1= 1, 2*1+1=3, 2*2+1=5 y así formando la figura del diamante
-                                            //Espacio,haya más espacio que * al principio y vaya habiendo menos espacio y más * a medida que crece
+                Console.WriteLine();
+
+                for (int j = diamond - i; j > 0; j--)//j= diamond - i es quien indica la cantidad de veces que aparece
+                {
+                    Console.Write(' ');
+                }
+                for (int k = i * 2 + 1; k > 0; k--)//k = i * 2 + 1 es quien indica la cantidad de veces que aparece
+                {
+                    Console.Write('*');
+                }
             }
-            for (int i = num; i >= 0; i--) //Invertir en cantidad el diamante, de más a menos
+
+            for (int i = diamond - 2; i >= 0; i--) //Da la vuelta
             {
-                Console.WriteLine(new string(' ', num - i) + new string('*', 2 * i + 1));
+                Console.WriteLine();
+
+                for (int j = diamond - i; j > 0; j--)
+                {
+                    Console.Write(' ');
+                }
+                for (int k = i * 2 + 1; k > 0; k--)
+                {
+                    Console.Write('*');
+                }
             }
         }
     }

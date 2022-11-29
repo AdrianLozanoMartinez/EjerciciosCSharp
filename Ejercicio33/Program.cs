@@ -16,16 +16,13 @@
 
             string[] deleteCommas = num.Split(',');
 
-
             for (int i = 0; i< deleteCommas.Length; i++)
             {
                 int numbers = int.Parse(deleteCommas[i]);
 
                 if(numbers % 2 == 0)
                 Console.WriteLine(numbers);
-
             }
-
         }
     }
 }

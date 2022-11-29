@@ -22,7 +22,6 @@
                 {
                     Console.Write(Combinatorio(i, j) + " ");
                 }
-
                 Console.WriteLine();
             }
         }
@@ -42,7 +41,6 @@
             {
                 result *= i;
             }
-
             return result;
         }
     }

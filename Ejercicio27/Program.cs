@@ -16,13 +16,13 @@
 
         static void Main()
         {
-        int num = Input();
-        int num2 = Input();
+            int num = Input();
+            int num2 = Input();
 
-        //Suma Fibonacci
-        int result = Fibonacci(num) + Fibonacci(num2);
+            //Suma Fibonacci
+            int result = Fibonacci(num) + Fibonacci(num2);
 
-        Show(result);
+            Show(result);
         }
 
         static int Input()
